@@ -13,7 +13,7 @@ import com.example.lwq.damaiclient.modle.IM.IMApp.AnSocialManger;
 
 /**
  * Application类
- * @author lwq
+ * @author lwqwgegregergergergreg
  * */
 public class MyApplication extends Application {
 	private static Stack<Activity> activityStack;
