@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <TextView
+         android:id="@+id/title"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="15dp"
+         android:gravity="left|center_vertical"
+         android:text="最新推荐"
+         android:background="@color/main_bg_color"
+         android:textColor="@color/transparent_background"
+         android:textSize="18sp"
+         />
+
+    <com.example.lwq.damaiclient.widget.DmListView
+        android:id="@+id/recommend_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/title"
+        />
+</RelativeLayout>

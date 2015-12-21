@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="jhs">#F77400</color>
+    <color name="main_bg_color">#F1F1F1</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_banjin">#3366ca</color>
+    <color name="red">#ff4444</color>
+    <color name="lanse">#00B6F2</color>
+    <color name="tuse">#755B4D</color>
+    <color name="gray">#cccccc</color>
+    <color name="huise">#cccccc</color>
+    <color name="black">#000000</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="bl">#24478e</color>
+    <color name="background_color">#ffd1dce9</color>
+    <color name="text_color">#ff666666</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="BgColor">#ffd1dce9</color>
+    <color name="dialog_tiltle_blue">#2277BB</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="pass">#F7F7FA</color>
+    <color name="jsi">#00B6F2</color>
+    <color name="jssi">#3399ff</color>
+
+    <!-- 滑动指示器 -->
+    <color name="activity_bg_color">#FFFFFF</color>
+    <color name="top_category_bar_background">#FFFFFF</color>
+    <color name="divider">#ffdddddd</color>
+    <color name="category_tab_text">#ff707070</color>
+    <color name="category_tab_text_dark">#fffafafa</color>
+    <color name="category_tab_highlight_text">#FF0000</color><!-- 选中高亮字体的颜色 -->
+    <color name="category_tab_highlight_text_dark">#ffd43d3d</color>
+    <color name="category_tab_highlight_bg">#FFFFFF</color><!-- 选中高亮选中项的状态的颜色-->
+    <color name="category_tab_highlight_dark_bg">#FFFFFF</color>
+</resources>

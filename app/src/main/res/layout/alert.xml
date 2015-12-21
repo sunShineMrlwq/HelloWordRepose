@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/bj_popu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_background"
+        android:alpha="0.85"
+        /> >
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:background="@drawable/back_radius"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:id="@+id/alert__title_tv"
+            android:text="安全提示"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/alert_content_tv"
+            android:text="确定要xx吗？"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/verticalLine"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/gray" />
+            <LinearLayout
+                android:id="@+id/bt_lin"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                >
+                <Button
+                    android:id="@+id/alert_cancel_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="取消"
+                    android:textSize="16sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv_VerticalLine"
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/alert_confirm_btn"
+                    android:layout_width="0dp"
+                    android:text="确定"
+                    android:textSize="16sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

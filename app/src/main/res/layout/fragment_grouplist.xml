@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.lwq.damaiclient.widget.PullToRefreshView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/progress_lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <ProgressBar
+        android:id="@+id/imag_ProgressBar"
+        android:layout_width="100dip"
+        android:layout_height="150dip"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/page_loading" />
+</LinearLayout>
+
+
+    <ListView
+        android:id="@+id/group_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</com.example.lwq.damaiclient.widget.PullToRefreshView>

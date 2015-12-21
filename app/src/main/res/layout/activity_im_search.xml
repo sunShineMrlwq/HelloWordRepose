@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <com.example.lwq.damaiclient.widget.AppBaryx
+        android:id="@+id/footbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入通信号或用户名"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/sousuo"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="50dp"
+            android:imeOptions="actionSearch"
+            android:singleLine="true" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/red"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/friend_search_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+</LinearLayout>

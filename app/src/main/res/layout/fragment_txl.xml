@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.example.lwq.damaiclient"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <com.example.lwq.damaiclient.widget.AppBaryx
+        android:id="@+id/footbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent" />
+    <ExpandableListView
+        android:id="@+id/elist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white"
+        android:scrollbars="none"
+        android:layout_below="@+id/footbar"
+        android:groupIndicator="@null" />
+
+    <com.example.lwq.damaiclient.modle.IM.Utils.PinYinSearh.AssortView
+        android:id="@+id/assort"
+        android:layout_width="30dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:layout_below="@+id/footbar"
+        />
+</RelativeLayout>
